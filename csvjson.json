@@ -1,0 +1,222 @@
+[
+  {
+    "roomId": "r1",
+    "roomname": "entrance hall",
+    "description": "You stand in a grand hall.",
+    "navigation": "R2, R3",
+    "variables": "Health: 100, Money: 10",
+    "events": "",
+    "characters": "",
+    "items": "",
+    "saveoption": "Save Game"
+  },
+  {
+    "roomId": "r2",
+    "roomname": "library",
+    "description": "Rows of dusty books.",
+    "navigation": "R1, R4",
+    "variables": "Health: 90, Money: 5",
+    "events": "Chance to find hidden knowledge",
+    "characters": "",
+    "items": "Ancient Scroll",
+    "saveoption": "Save Game"
+  },
+  {
+    "roomId": "r3",
+    "roomname": "garden",
+    "description": "Blooming flowers surround.",
+    "navigation": "R1, R5",
+    "variables": "Health: 95, Money: 8",
+    "events": "",
+    "characters": "",
+    "items": "Healing Potion",
+    "saveoption": "Save Game"
+  },
+  {
+    "roomId": "r4",
+    "roomname": "dark cave",
+    "description": "Eerie darkness envelopes.",
+    "navigation": "R2, R6",
+    "variables": "Health: 80, Money: 3",
+    "events": "Encounter a mysterious figure",
+    "characters": "Shadowy Stranger",
+    "items": "",
+    "saveoption": "Save Game"
+  },
+  {
+    "roomId": "r5",
+    "roomname": "market place",
+    "description": "Bustling market noises.",
+    "navigation": "R3, R7, R8",
+    "variables": "Health: 98, Money: 20",
+    "events": "",
+    "characters": "Merchant 1, Merchant 2",
+    "items": "",
+    "saveoption": "Save Game"
+  },
+  {
+    "roomId": "r6",
+    "roomname": "treasure room",
+    "description": "Shimmering jewels abound.",
+    "navigation": "R4",
+    "variables": "Health: 75, Money: 100",
+    "events": "Chance to gain valuable treasure",
+    "characters": "",
+    "items": "Glittering Gem",
+    "saveoption": "Save Game"
+  },
+  {
+    "roomId": "r7",
+    "roomname": "inn",
+    "description": "Warm hearth and cozy beds.",
+    "navigation": "R5, R9",
+    "variables": "Health: 100, Money: 2",
+    "events": "Rest for health recovery",
+    "characters": "Innkeeper",
+    "items": "",
+    "saveoption": "Save Game"
+  },
+  {
+    "roomId": "r8",
+    "roomname": "Alley",
+    "description": "Dark and narrow passage.",
+    "navigation": "R5, R10",
+    "variables": "Health: 90, Money: 1",
+    "events": "Encounter a beggar",
+    "characters": "Beggar",
+    "items": "",
+    "saveoption": "Save Game"
+  },
+  {
+    "roomId": "r9",
+    "roomname": "Blacksmith",
+    "description": "Clanging of metal sounds.",
+    "navigation": "R7, R11, R12",
+    "variables": "Health: 100, Money: 15",
+    "events": "Buy/sell weapons, armor",
+    "characters": "Blacksmith",
+    "items": "Sword, Shield",
+    "saveoption": "Save Game"
+  },
+  {
+    "roomId": "r10",
+    "roomname": "Abanoned House",
+    "description": "Dusty and decrepit.",
+    "navigation": "R8, R13",
+    "variables": "Health: 95, Money: 0",
+    "events": "Chance of finding hidden item",
+    "characters": "",
+    "items": "Torn Diary",
+    "saveoption": "Save Game"
+  },
+  {
+    "roomId": "r11",
+    "roomname": "Forest Clearing",
+    "description": "Sunlight filters through.",
+    "navigation": "R9, R12",
+    "variables": "Health: 90, Money: 5",
+    "events": "",
+    "characters": "",
+    "items": "",
+    "saveoption": "Save Game"
+  },
+  {
+    "roomId": "r12",
+    "roomname": "Lake Shore",
+    "description": "Calm waters lap the shore.",
+    "navigation": "R9, R11, R13",
+    "variables": "Health: 95, Money: 8",
+    "events": "Chance of finding a rare shell",
+    "characters": "Fisherman",
+    "items": "Seashell",
+    "saveoption": "Save Game"
+  },
+  {
+    "roomId": "r13",
+    "roomname": "Hidden Cave",
+    "description": "Stalactites hang above.",
+    "navigation": "R10, R12, R14",
+    "variables": "Health: 85, Money: 10",
+    "events": "Encounter a mysterious inscription",
+    "characters": "",
+    "items": "Ancient Runes",
+    "saveoption": "Save Game"
+  },
+  {
+    "roomId": "r14",
+    "roomname": "Enchanted Glade",
+    "description": "Magical aura fills air.",
+    "navigation": "R13, R15",
+    "variables": "Health: 100, Money: 15",
+    "events": "Encounter a mystical creature",
+    "characters": "Mystic Being",
+    "items": "Enchanted Flower",
+    "saveoption": "Save Game"
+  },
+  {
+    "roomId": "r15",
+    "roomname": "Desert Oasis",
+    "description": "Cool water awaits.",
+    "navigation": "R14, R16",
+    "variables": "Health: 95, Money: 5",
+    "events": "Chance of finding a hidden oasis",
+    "characters": "Nomad",
+    "items": "Canteen",
+    "saveoption": "Save Game"
+  },
+  {
+    "roomId": "r16",
+    "roomname": "Volcano Cavern",
+    "description": "Fiery heat engulfs.",
+    "navigation": "R15, R17",
+    "variables": "Health: 80, Money: 0",
+    "events": "Risky chance to find precious gem",
+    "characters": "",
+    "items": "Lava Ruby",
+    "saveoption": "Save Game"
+  },
+  {
+    "roomId": "r17",
+    "roomname": "Sky Bridge",
+    "description": "Suspended among clouds.",
+    "navigation": "R16, R18",
+    "variables": "Health: 90, Money: 3",
+    "events": "Encounter a gusty wind",
+    "characters": "Air Guardian",
+    "items": "",
+    "saveoption": "Save Game"
+  },
+  {
+    "roomId": "r18",
+    "roomname": "Crystal Caves",
+    "description": "Crystals reflect light.",
+    "navigation": "R17, R19",
+    "variables": "Health: 100, Money: 10",
+    "events": "Discover a hidden crystal cache",
+    "characters": "Crystal Guardian",
+    "items": "Crystal Shard",
+    "saveoption": "Save Game"
+  },
+  {
+    "roomId": "r19",
+    "roomname": "Underground River",
+    "description": "Murmuring waters flow.",
+    "navigation": "R18, R20",
+    "variables": "Health: 95, Money: 5",
+    "events": "Navigate treacherous currents",
+    "characters": "",
+    "items": "",
+    "saveoption": "Save Game"
+  },
+  {
+    "roomId": "r20",
+    "roomname": "Winning Room",
+    "description": "You've won the game!",
+    "navigation": "",
+    "variables": "",
+    "events": "",
+    "characters": "",
+    "items": "",
+    "saveoption": ""
+  }
+]
